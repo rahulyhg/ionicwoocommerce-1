@@ -1,0 +1,64 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-email-composer": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-native-spinner": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-nativegeocoder": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-themeablebrowser": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "com.themescoder"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.themescoder"
+    },
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.themescoder"
+    }
+  }
+}
