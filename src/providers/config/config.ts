@@ -102,7 +102,7 @@ export class ConfigProvider {
   public notificationType = "";
   public privacyPolicy = "";
   public termServices = "";
-  public aboutUs = "";
+  public aboutUs = "About Us";
   public refundPolicy = "";
   public filterMaxPrice = 1000;
   public guestCheckOut = true;

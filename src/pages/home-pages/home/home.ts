@@ -10,9 +10,10 @@ import { TranslateService } from '@ngx-translate/core';
 import { SharedDataProvider } from '../../../providers/shared-data/shared-data';
 import { trigger, style, animate, transition } from '@angular/animations';
 import { ProductsPage } from '../../products/products';
-import { NavController, Content, Events } from 'ionic-angular';
+import { NavController, Content, Events,ModalController } from 'ionic-angular';
 import { CartPage } from '../../cart/cart';
 import { SearchPage } from '../../search/search';
+import { LoginPage } from '../../login/login';
 import { ScratchCardPage } from '../../scratch-card/scratch-card';
 
 @Component({
@@ -57,6 +58,7 @@ export class HomePage {
     public http: Http,
     public config: ConfigProvider,
     public shared: SharedDataProvider,
+public modalCtrl: ModalController,
     public navCtrl: NavController,
     public events: Events,
     translate: TranslateService) {
@@ -78,5 +80,9 @@ export class HomePage {
   }
   ionViewDidEnter() {
     this.events.publish('footerChange', 'HomePage');
+  }
+ openLoginPage() {
+    let modal = this.modalCtrl.create(LoginPage, { hideGuestLogin: true });// <!-- 2.0 updates -->
+    modal.present();
   }
 }

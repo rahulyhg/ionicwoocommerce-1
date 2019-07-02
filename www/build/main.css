@@ -7253,8 +7253,8 @@ button[disabled],
 }
 
 .button-md-secondary {
-  color: #fff;
-  background-color: #557f5f;
+    color: #fff;
+    background-color: #f9ba00;
 }
 
 .button-md-secondary:hover:not(.disable-hover) {
@@ -38813,7 +38813,7 @@ ion-navbar.toolbar {
 
 .toolbar-background-md {
   border-color: #b2b2b2;
-  background: #51688F;
+  background: rgb(46, 48, 51) none repeat scroll 0 0;
 }
 
 .header-md::after,
@@ -44142,9 +44142,8 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-light .toolbar-background-md {
-  background: #f4f4f4;
+    background: rgb(46, 48, 51) none repeat scroll 0 0;
 }
-
 .toolbar-md-light .bar-button-clear-md,
 .toolbar-md-light .bar-button-default-md,
 .toolbar-md-light .bar-button-outline-md,
@@ -45796,6 +45795,11 @@ ion-navbar.toolbar {
 .toolbar-wp-primary-dark .bar-button-solid-wp-light {
   color: #000;
   background-color: #f4f4f4;
+}
+/* */
+
+footer .segment-md .segment-button{
+color: #fff;
 }
 
 .toolbar-wp-primary-dark .bar-button-solid-wp-light.activated {
@@ -51531,7 +51535,7 @@ image-viewer.ion-page img {
 
 .toolbar .bar-buttons .cart-button .icon .badge {
   font-family: roboto;
-  background-color: #83af8c;
+  background-color: #f9ba00;
   position: absolute;
   top: -3px;
   right: 0;
@@ -51974,7 +51978,7 @@ footer .toolbar .segment .segment-button .icon img {
 }
 
 footer .toolbar .segment .segment-button.segment-activated {
-  color: #557f5f;
+  color: #f9ba00;
 }
 
 product .list-price-normal-through {
